@@ -12,7 +12,7 @@ public class Person {
 		super();
 		this.id = id;
 		this.name = name;
-		System.out.println("right conflict...");
+		System.out.println(" conflict...");
 	}
 	@Override
 	public String toString() {
