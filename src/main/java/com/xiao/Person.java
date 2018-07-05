@@ -8,6 +8,12 @@ public class Person {
 	public String getId() {
 		return id;
 	}
+	public Person(String id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+		System.out.println("right conflict...");
+	}
 	@Override
 	public String toString() {
 		return "Person [id=" + id + ", name=" + name + "]";
